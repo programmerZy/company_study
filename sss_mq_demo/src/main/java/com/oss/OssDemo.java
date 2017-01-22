@@ -70,7 +70,7 @@ public class OssDemo {
              * }
              */
             /**
-             * Mq ����
+             * Mq 
              */
             Properties producerProperties = new Properties();
             producerProperties.setProperty(PropertyKeyConst.ProducerId, MqConfig.PRODUCER_ID);
