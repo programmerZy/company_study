@@ -16,6 +16,9 @@ public class UploadDemo {
 		UploadFileRequest uploadFileRequest = new UploadFileRequest("<yourBucketName>", "<yourKey>");
 		// 指定上传的本地文件
 		uploadFileRequest.setUploadFile("<yourLocalFile>");
+		// sdfasfasfdasdfa
+		
+		System.out.println("2222");
 		// 指定上传并发线程数
 		uploadFileRequest.setTaskNum(5);
 		// 指定上传的分片大小
